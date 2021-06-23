@@ -88,4 +88,19 @@ select Gender,Salary from employeetable7 where gender='Female' and Salary=500
 
 
 
+--creating a unique clustereing and deleting
+CREATE TABLE Employeetable8
+(
+  Id INT PRIMARY KEY,
+  FastName VARCHAR(30),
+  LastName VARCHAR(30),
+  Salary INT,
+  Gender VARCHAR(30),
+  City VARCHAR(30)
+)
+INSERT INTO Employeetable8 VALUES(2,'Priyanka', 'Dwegaan',4500,'Female','Mumbai')
+INSERT INTO Employeetable8 VALUES(2,'Preety', 'Tiwary',2500,'Female','Delhi')
+select * from Employeetable8
+
+
 
